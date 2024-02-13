@@ -1,0 +1,14 @@
+.rainbow-background {
+  width: 100%; /* Take full width of the container */
+  height: 10rem;
+  background: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red);
+  position: relative;
+  overflow: hidden; /* Hide overflow content */
+}
+
+@media (max-width: 768px) {
+  .rainbow-background {
+      height: 8rem; /* Adjust height for smaller screens */
+  }
+}
+
