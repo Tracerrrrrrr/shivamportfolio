@@ -29,7 +29,7 @@ const SideBar = () => {
         ]}
         wrapper="span"
         speed={50}
-        style={{ fontSize: '1em', display: 'flex',flexDirection:'row' ,color:"purple",fontWeight:"bold",marginTop:"1rem"}}
+        style={{ fontSize: '1em', display: 'flex',flexDirection:'row' ,color:"purple",fontWeight:"bold",marginTop:"1rem",marginLeft:"1rem"}}
         repeat={Infinity}
       />
 <About/>
@@ -42,7 +42,7 @@ const SideBar = () => {
         ]}
         wrapper="span"
         speed={50}
-        style={{ fontSize: '1em', display: 'flex',flexDirection:'row' ,color:"purple",fontWeight:"bold",marginTop:"1rem"}}
+        style={{ fontSize: '1em', display: 'flex',flexDirection:'row' ,color:"purple",fontWeight:"bold",marginTop:"1rem",marginLeft:"1rem"}}
         repeat={Infinity}
       />
       <div style={{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'center' }}>
@@ -150,7 +150,7 @@ Apache Server
 </CardBody>
 </Card>
 </div>
-<div style={{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'center',marginTop:"2rem" }}>
+{/* <div style={{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'center',marginTop:"2rem" }}>
 <Card className="mt-6 w-96" style={{marginLeft:"2rem"}}>
 
 <CardHeader floated={false} className="h-200">
@@ -167,7 +167,7 @@ React Native
   </Typography>
 </CardBody>
 </Card>
-    </div>
+    </div> */}
 </>
   )
 }
